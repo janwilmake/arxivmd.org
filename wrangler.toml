@@ -6,3 +6,7 @@ routes = [
   { pattern = "arxivmd.org", custom_domain = true },
   { pattern = "www.arxivmd.org", custom_domain = true }
 ]
+
+[[kv_namespaces]]
+binding = "ARXIV_KV"
+id = "e1497da9c8574c1bba1f26edb36765a0"
