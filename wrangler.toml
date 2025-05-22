@@ -1,0 +1,8 @@
+name = "arxivmd"
+compatibility_date = "2025-04-21"
+dev.port = 3000
+main = "index.js"
+routes = [ 
+  { pattern = "arxivmd.org", custom_domain = true },
+  { pattern = "www.arxivmd.org", custom_domain = true }
+]
