@@ -25,7 +25,7 @@ export default {
     const cachedMarkdown = await env.ARXIV_KV.get(`arxiv:${arxivId}`);
     if (cachedMarkdown) {
       return new Response(cachedMarkdown, {
-        headers: { "Content-Type": "text/markdown" },
+        headers: { "Content-Type": "text/markdown;charset=utf8" },
       });
     }
 
